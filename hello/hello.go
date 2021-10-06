@@ -6,6 +6,7 @@ import (
 )
 
 func main() {
-	message := greetings.Hello("Guys")
+	message := greetings.Hello("Goys")
 	fmt.Println(message)
+	fmt.Println(w, "End of the merges")
 }
